@@ -68,28 +68,28 @@ Plots: Check plots/ for performance visualizations (e.g., confusion matrix, ROC 
 
 ## Results
 Confusion Matrix: TN = 462, FP = 357, FN = 107, TP = 1842
-<img width="1783" height="732" alt="confusion_oof_meta_bars" src="https://github.com/user-attachments/assets/daa3d3b6-5cb7-49cf-b3c8-975c5f29d743" />
+![Confusion Matrix](plots/confusion_oof_meta_bars.png)
 
 Concept Graph:
-<img width="1530" height="1261" alt="concept_graph_fold1" src="https://github.com/user-attachments/assets/552ea8cc-2b34-460a-9ca5-2f687fbea555" />
+![Concept Graph](plots/concept_graph_fold1.png)
 
 OOF Performance: F1 = 0.8881, AUC = 0.8376, Threshold = 0.4360
-<img width="1425" height="985" alt="performance_table" src="https://github.com/user-attachments/assets/974dc315-0212-46b3-b5ac-cb7aaa7d0e66" />
+![performance_table](plots/performance_table.png)
 
 AUC/ROC Curves:
-<img width="1268" height="932" alt="roc_curves_meta" src="https://github.com/user-attachments/assets/ec39dfe7-2a55-4054-aab6-c3eedfdaa59c" />
+![roc_curves_meta](plots/roc_curves_meta.png)
 
 Score Distributions Out-Of-Fold (OOF) Meta:
-<img width="1268" height="789" alt="score_distributions_oof_meta" src="https://github.com/user-attachments/assets/89216afb-221e-42a3-afdc-931196b58986" />
+![score_distributions_oof_meta](plots/score_distributions_oof_meta.png)
 
 Summary Metrics Across Folds:
-<img width="1268" height="789" alt="summary_bars" src="https://github.com/user-attachments/assets/dd7ca04f-bba3-4235-865f-9a25ee7c3720" />
+![summary_bars](plots/summary_bars.png)
 
 Precision-Recall Curves:
-<img width="1281" height="932" alt="pr_curves_meta" src="https://github.com/user-attachments/assets/e7b78ab2-e42b-4a35-a886-b045c2d0a305" />
+![pr_curves_meta](plots/pr_curves_meta.png)
 
 Calibration OOF Meta:
-<img width="1484" height="731" alt="calibration_oof_meta" src="https://github.com/user-attachments/assets/71e0ec5c-a7c0-4876-ae49-04619bcea19f" />
+![calibration_oof_meta](plots/calibration_oof_meta.png)
 
 Demo Predictions (0.03s for 2 patients):
 Patient 1: prob=0.6010 → High risk

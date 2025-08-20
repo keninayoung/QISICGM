@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9060bd63-baeb-477e-82d0-239c822093e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>demo_predictions.py</StartupFile>
+    <StartupFile>make_demo_predictions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,13 +23,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="demo_predictions.py" />
+    <Compile Include="make_demo_predictions.py" />
+    <Compile Include="plots_and_reporting.py" />
     <Compile Include="qisicgm_stacked.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="data\new_patients.csv" />
     <Content Include="data\pima-indians-diabetes.csv" />
     <Content Include="data\synthetic_pima_data.csv" />
     <Content Include="generate_synthetic_data.py" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +59,7 @@
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="models\" />
+    <Folder Include="results\" />
     <Folder Include="plots\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

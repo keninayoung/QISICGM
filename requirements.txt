@@ -16,3 +16,4 @@ random
 tqdm
 seaborn
 psutil
+umap

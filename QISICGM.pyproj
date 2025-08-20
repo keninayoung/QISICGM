@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9060bd63-baeb-477e-82d0-239c822093e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>make_demo_predictions.py</StartupFile>
+    <StartupFile>qisicgm_stacked.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

@@ -84,7 +84,7 @@ except Exception:
 SEED = 42
 np.random.seed(SEED)
 torch.manual_seed(SEED)
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 
 print("Device:", device)
 
 PROFILE = "push75"

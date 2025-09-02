@@ -11,7 +11,7 @@ Author: Kenneth Young, PhD
 
 Training lives in **`qisicgm_stacked.py`**, inference demo in **`make_demo_predictions.py`**, and all visuals in **`plots_and_reporting.py`**.
 
----
+ ![QISICGM](plots/qisicgm.png)
 
 ## Why This Matters
 Medical screening often requires **high recall** without throwing precision out the window. QISICGM’s hybrid stack (trees + transformer + CNN + FFNN) learns complementary views over a shared embedding, while the **concept graph** preserves neighborhood structure across training and inference. The result: a **robust, practical, GPU/CPU-friendly** predictor, useful for **AI-assisted clinical triage** and other structured-data problems beyond diabetes.

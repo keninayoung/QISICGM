@@ -33,6 +33,7 @@
     <Content Include="data\pima-indians-diabetes.csv" />
     <Content Include="data\synthetic_pima_data.csv" />
     <Content Include="generate_synthetic_data.py" />
+    <Content Include="paper\qisicgm_paper.pdf" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -59,6 +60,7 @@
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="models\" />
+    <Folder Include="paper\" />
     <Folder Include="results\" />
     <Folder Include="plots\" />
   </ItemGroup>

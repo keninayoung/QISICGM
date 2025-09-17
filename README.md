@@ -13,8 +13,9 @@ Training lives in **`qisicgm_stacked.py`**, inference demo in **`make_demo_predi
 
  ![QISICGM](plots/qisicgm.png)
 
-For methodology and results, see: [Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) for Diabetes Risk Prediction](paper/qisicgm_paper.pdf)
-   
+For methodology and results, see pre-print paper (arXiv):      
+[Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) for Diabetes Risk Prediction](https://arxiv.org/abs/2509.12259)
+
 ## Why This Matters
 Medical screening often requires **high recall** without throwing precision out the window. QISICGM’s hybrid stack (trees + transformer + CNN + FFNN) learns complementary views over a shared embedding, while the **concept graph** preserves neighborhood structure across training and inference. The result: a **robust, practical, GPU/CPU-friendly** predictor, useful for **AI-assisted clinical triage** and other structured-data problems beyond diabetes.
 
@@ -188,8 +189,19 @@ This repository is for research and educational purposes only and is **NOT** a m
 ---
 
 ## Citation
-If you use this codebase, please cite the repository and author.
-
+If you use this codebase, please cite:
+```
+@article{young2025quantuminspiredstackedintegratedconcept,
+      title={Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) for Diabetes Risk Prediction}, 
+      author={Kenneth G. Young II},
+      year={2025},
+      eprint={2509.12259},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.12259}, 
+      doi={https://doi.org/10.48550/arXiv.2509.12259}
+}
+```
 ---
 
 ## License
